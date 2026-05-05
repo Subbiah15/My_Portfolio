@@ -941,20 +941,20 @@
                     </div>
                 </div>
 
-                <form class="space-y-6 bg-gray-50 p-6 border-2 border-black">
+                <form name="contact" method="POST" data-netlify="true" class="space-y-6 bg-gray-50 p-6 border-2 border-black">
                     <div class="flex flex-col">
                         <label class="font-mono font-bold mb-1 uppercase text-xs">Identity</label>
-                        <input type="text" placeholder="NAME / COMPANY"
+                        <input type="text" name="identity" required placeholder="NAME / COMPANY"
                             class="bg-white border-2 border-black p-3 font-bold focus:outline-none focus:bg-neo-yellow focus:shadow-hard-sm transition-all cursor-hover">
                     </div>
                     <div class="flex flex-col">
                         <label class="font-mono font-bold mb-1 uppercase text-xs">Coordinates</label>
-                        <input type="email" placeholder="EMAIL ADDRESS"
+                        <input type="email" name="email" required placeholder="EMAIL ADDRESS"
                             class="bg-white border-2 border-black p-3 font-bold focus:outline-none focus:bg-neo-yellow focus:shadow-hard-sm transition-all cursor-hover">
                     </div>
                     <div class="flex flex-col">
                         <label class="font-mono font-bold mb-1 uppercase text-xs">Transmission</label>
-                        <textarea rows="4" placeholder="PROJECT DETAILS..."
+                        <textarea name="project_idea" required rows="4" placeholder="PROJECT DETAILS..."
                             class="bg-white border-2 border-black p-3 font-bold focus:outline-none focus:bg-neo-yellow focus:shadow-hard-sm transition-all resize-none cursor-hover"></textarea>
                     </div>
                     <button type="submit"
