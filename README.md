@@ -39,7 +39,7 @@
 
 1. **Clone the Uplink:**
    ```bash
-   git clone https://github.com/Subbiah15/Portfolio.git
+   git clone https://github.com/Subbiah15/My_Portfolio.git
    ```
 2. **Access the Interface:**
    Open `index.html` in any modern browser.
